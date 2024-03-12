@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input Field</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form class="box">
+        <div class="input__wrapper">
+            <input type="password" id="password" class="input__field" pattern="^(?=.*[AZa-z]) (?=.*\d) [A-Za-z\d] {6,}$" placeholder="Your Password">
+            <label for="password" class="input__label">Password</label>
+            <img src="eye.png" alt="Eye Icon" title="Eye Icon" class="input__icon">
+        </div>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>
